@@ -3,6 +3,7 @@
 @import "./sass/abstracts/mixins";
 @import "./sass/abstracts/variables";
 @import "./sass/abstracts/helpers";
+@import "./sass/abstracts/animations";
 
 @import "./sass/base/base";
 @import "./sass/base/typography";
@@ -13,6 +14,5 @@
 @import "./sass/layout/sections";
 
 @import "./sass/sections/about";
-@import "./sass/sections/contact";
-@import "./sass/sections/hero";
 @import "./sass/sections/projects";
+@import "./sass/sections/contact";
