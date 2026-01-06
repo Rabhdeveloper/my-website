@@ -4,9 +4,12 @@
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --dist-dir dist"
   },
   "repository": {
     "type": "git",
@@ -20,8 +23,9 @@
   },
   "homepage": "https://github.com",
   "devDependencies": {
+    "@parcel/resolver-default": "^2.16.3",
     "@parcel/transformer-sass": "^2.16.3",
-    "parcel": "^2.8.2",
+    "parcel": "^2.16.3",
     "prettier": "^2.8.1"
   },
   "dependencies": {
